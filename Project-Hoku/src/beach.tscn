@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dkd3pbjwmfc05"]
+
+[ext_resource type="Texture2D" uid="uid://cc5opeomvfjck" path="res://New folder/Beach-and-caves-tileset_ALL_by_AxulArt.png" id="1_x2smt"]
+
+[node name="Beach-and-caves-tilesetAllByAxulArt" type="Sprite2D"]
+position = Vector2(432, 280)
+texture = ExtResource("1_x2smt")

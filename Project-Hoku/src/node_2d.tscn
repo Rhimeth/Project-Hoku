@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://ci5pmqc3mk222"]
+
+[ext_resource type="Texture2D" uid="uid://dwoj365hdj3qp" path="res://New folder/Pirate2.png" id="1_on5ss"]
+
+[sub_resource type="TileSet" id="TileSet_u7an7"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(198, 15)
+scale = Vector2(3, 3)
+texture = ExtResource("1_on5ss")
+
+[node name="TileMap" type="TileMap" parent="."]
+tile_set = SubResource("TileSet_u7an7")
+format = 2
+
+[node name="ColorRect" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(1152, 648)
+offset_left = -390.0
+offset_top = -187.0
+offset_right = 762.0
+offset_bottom = 461.0
+color = Color(0.490196, 0.972549, 0.984314, 1)
